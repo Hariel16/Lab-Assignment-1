@@ -13,6 +13,7 @@ public class  FootballPlayer
         int jersey_number;
         double pound=  0.45359237;
         double meter= 100;
+        int i=0
 
         //Input
         System.out.println("Enter the name : ");
@@ -42,8 +43,16 @@ public class  FootballPlayer
         System.out.println("Player Name - "+name);
         System.out.println("Age - "+age);
         System.out.println("Height - "+height+"cm");
-        System.out.println("Weight - "+weighteight+"kg");
+        System.out.println("Weight - "+Weight+"kg");
         System.out.println("Jersy Number - "+jersey_number);
+
+        //Current age of the player
+        System.out.println("The current age is "+i++);
+
+        //Age increased by one
+        System.out.println(i++);
+
+
 
 
 
